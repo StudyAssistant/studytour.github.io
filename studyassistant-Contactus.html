@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+   <meta name="viewport" context="width=device-width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Website-Study Assistant-Contact Us</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,700%7CQuicksand:wght@300;400;500;700" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+   <script src="https://it.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+</head>
+<style type="text/css">
+    body{font-family: 'Quicksand', sans-serif;)}
+</style>
+<body style="background-image: url(https://d33wubrfki0l68.cloudfront.net/634aadd428dc889302d4684e914ca3ff2b545889/ea3f4/static/6b013d485b1f1dc2c1df378b38099b3b/a6312/rounded-hyper-pink-blue.png); background-repeat: no-repeat; background-size: 100%;">
+    
+    <section  class="sub-header">
+    	<nav>
+     		<div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <h4 style="text-align: center; color: grey;">Contact Us</h4>
+    		    <ul>
+    		    	<li><a href="studyassistant.html">HOME</a></li>
+    		    	<li><a href="studyassistant-About us page.html">ABOUT</a></li>
+    		    	<li><a href="studyassistant-Contents.html">CONTENTS</a></li>
+    		    	<li><a href="studyassistant-Contactus.html">CONTACT</a></li>
+    		    </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section> 
+
+<!-------Contact Us------>
+<section class="contact">
+        <form action=""; class="form">
+            <input type="text" class="input-feild" placeholder="Enter your name" required>
+            <input type="email"class="input-feild" placeholder="Enter Email Address" required>
+            <input type="text" class="input-feild" placeholder="Subject" required>
+            <textarea type="text" class="input-feild textarea-feild" placeholder="Message" required></textarea>
+            <button type="button" class="btn">Send Message</button>
+        </form>
+</section>
+ 
+ <!-------Footer------->
+<section class="footer" style="padding-bottom: 5px; padding-top: 37%;">
+    <h4>About Us</h4>
+    <p>This Website has been desingned by ©Study Assistant as an online platform to improve, guide and assist you <br> in your problems faced because of english grammar and vocablury skills </p>
+    <div class="icons">
+        <i class="fab fa-youtube"></i>
+        <i class="fa fa-telegram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa-fa-google-plus-official"></i>
+    </div>
+    <p>COPYRIGHT@2023-DEVELOPED BY STUDY ASSISTANT</p>
+</section>
+
+<!--------JavaScript for Toggle Menu-------> 
+   
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0"; 
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        } 
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+
